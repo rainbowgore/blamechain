@@ -1,5 +1,8 @@
 # Blamechain
 
+![Node.js](https://img.shields.io/badge/node-%3E=18.0.0-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Blamechain is a modular Git analytics and engineering intelligence toolkit. It provides insights into codebase evolution, contributor behavior, and software development trends. Designed for codebase audits, technical reports, and engineering KPIs, Blamechain helps teams trace the history and health of their projects with precision.
 
 ## Key Features
