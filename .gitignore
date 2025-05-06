@@ -1,0 +1,98 @@
+# ──────────────────────────────
+# Node.js & Package Managers
+# ──────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+*.tsbuildinfo
+
+# ──────────────────────────────
+# Environment Variables
+# ──────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ──────────────────────────────
+# Build, Output, Artifacts
+# ──────────────────────────────
+dist/
+build/
+out/
+.output/
+output/
+**/output/
+*.log
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+.temp/
+.tmp/
+.cache/
+logs/
+
+# ──────────────────────────────
+# Coverage & Test Artifacts
+# ──────────────────────────────
+coverage/
+.nyc_output/
+jest-results/
+**/coverage/
+**/__snapshots__/
+tests/
+
+# ──────────────────────────────
+# Markdown (generated)
+*.md
+!README.md
+
+# ──────────────────────────────
+# Backup folders & generated caches
+# ──────────────────────────────
+**/backup-before-cleanup/
+.history/
+.settings/
+.project
+.classpath
+
+# ──────────────────────────────
+# Editor/IDE Junk
+# ──────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-workspace
+*.sublime-project
+
+# ──────────────────────────────
+# OS-Specific Trash
+# ──────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+# ──────────────────────────────
+# Explicitly ignore the future UI directory
+# ──────────────────────────────
+blamechain-web/

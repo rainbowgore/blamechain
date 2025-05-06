@@ -1,0 +1,39 @@
+{
+  "name": "blamechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "analyze": "echo 'Available analysis tools:\n- burnout\n- ownership\n- feature-death\n- timeline\n- enhanced-timeline\n- filter-graph\n- ascii-graph\n- combined-insights\n- cleanup\n- compare-repos\n\nUsage: npm run [script-name] -- [options]'",
+    "burnout": "node scripts/burnout-analysis.js",
+    "ownership": "node scripts/ownership-analysis.js",
+    "feature-death": "node scripts/feature-death-analysis.js",
+    "timeline": "node scripts/timeline-script.js",
+    "enhanced-timeline": "node scripts/enhanced-timeline.js",
+    "filter-graph": "node scripts/filter-graph.js",
+    "ascii-graph": "node scripts/ascii-graph.js", 
+    "combined-insights": "node scripts/combined-insights.js",
+    "cleanup": "node scripts/remove-comments-and-emojis.js",
+    "compare-repos": "node scripts/compare-repos.js",
+    "demo-burnout": "node scripts/demo-burnout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "canvas": "^3.1.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "simple-git": "^3.27.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  }
+}
