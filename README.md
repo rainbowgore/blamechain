@@ -129,10 +129,6 @@ Check file syntax before commit:
 node --check src/**/*.js
 ```
 
-## Contributing
-
-We welcome community contributions. Please open an issue to discuss before submitting a pull request.
-
 ## License
 
 MIT License
